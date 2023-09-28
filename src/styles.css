@@ -6,4 +6,30 @@ body {
     width: 100%;
     min-height: 100vh;
     background-color: cyan;
+    position: relative;
+
+    display: flex;
+    gap: 2rem   ;
+    flex-wrap: wrap;
+    overflow: hidden;
+    justify-content: center;
+    padding-top: 6rem;
+    font-family: 'Poppins', sans-serif;
+    user-select: none;
+    
+}
+
+.add  {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: .5rem 1rem;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #9ec862;
+    border-radius: 8px;
+    user-select: none;
 }
